@@ -34,7 +34,6 @@
       overflow: hidden;
       height: 0px;
     }
-
     &.expanded .top-bar-section {
       overflow: visible;
       height: auto;
@@ -45,7 +44,7 @@
   }
 
   @media (min-width: 768px) and (max-width: 835px) {
-    .toggle-topbar.menu-icon {
+    &.logged-out .toggle-topbar.menu-icon {
       margin-top: -46px;
     }
   }
