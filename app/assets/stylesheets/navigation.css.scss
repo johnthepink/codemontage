@@ -47,6 +47,9 @@
     &.logged-out .toggle-topbar.menu-icon {
       margin-top: -46px;
     }
+    ul.left > li.cta .button {
+      margin-left: 0;
+    }
   }
 }
 
