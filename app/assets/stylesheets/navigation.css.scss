@@ -25,6 +25,20 @@
   .cta-nav:hover {
     background: darken($cmPurple, 10%);
   }
+
+  @media (max-width: 767px) {
+    overflow: visible;
+
+    .top-bar-section {
+      height: 0;
+      overflow: hidden;
+    }
+
+    &.expanded .top-bar-section {
+      height: auto;
+      overflow: visible;
+    }
+  }
 }
 
 .top-bar.logged-in ul>li.logo img {

@@ -23,6 +23,9 @@
 #header.logged-out {
   height: 80px;
   ul.inline-list { margin-bottom: 10px; }
+  @media (max-width: 767px) {
+    height: 30px;
+  }
 }
 
 ul.inline-list .fi-social-github {
